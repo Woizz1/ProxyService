@@ -177,7 +177,7 @@ const processResponse = (proxyRes, res, append) => {
 
 const onProxyReq = (proxyReq, req, res, options) => {
   proxyReq.setHeader('User-Agent', proxyReq.getHeader('proxy-override-user-agent') || DEFAULT_USERAGENT);
-  proxyReq.setHeader("Authorization", "Bearer AAAAAAAAAAAAAAAAAAAAAJQGYAEAAAAAZtThzbqVzKzo3AQ1pFaCf%2BdYNbQ%3Dfhv7LkQcBtc4MhCT96hTiRWxxVjvV3hUOwkTrzpp6tyuisyjiu")
+  proxyReq.setHeader("Authorization", "Bearer AAAAAAAAAAAAAAAAAAAAAKiUYAEAAAAA3B6ivXOWnZbKKYwndH%2Bkauh5ycY%3DbxFEJgRWujKoD6yhDUBo9HSV40tQFI8xSIyrTSkY2wVtoSTq6x")
   if (REWRITE_ACCEPT_ENCODING) {
     proxyReq.setHeader('Accept-Encoding', 'gzip');
   }
